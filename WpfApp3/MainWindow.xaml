@@ -1,0 +1,20 @@
+﻿<Window x:Class="WpfApp2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="b2" Content="Очистка&#xD;&#xA;" HorizontalAlignment="Left" Margin="480,98,0,0" VerticalAlignment="Top" Width="75" Height="23" Click="b2_Click"/>
+        <Button x:Name="b1" Content="/&#xD;&#xA;" HorizontalAlignment="Left" Margin="226,44,0,0" VerticalAlignment="Top" Width="38" Height="20" RenderTransformOrigin="0.806,-5.277" Click="b1_Click"/>
+        <Label x:Name="l1" Content="Введите первое число&#xD;&#xA;" HorizontalAlignment="Left" Margin="54,41,0,0" VerticalAlignment="Top" Height="28"/>
+        <Label x:Name="l2" Content="Введите второе число&#xA;" HorizontalAlignment="Left" Margin="298,41,0,0" VerticalAlignment="Top" Height="28" Width="133"/>
+        <TextBox x:Name="t1" HorizontalAlignment="Left" Height="23" Margin="54,90,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="133" TextChanged="t1_TextChanged"/>
+        <TextBox x:Name="t2" HorizontalAlignment="Left" Height="23" Margin="298,90,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="133" TextChanged="t2_TextChanged"/>
+        <Label x:Name="t3" Content="&#xD;&#xA;" HorizontalAlignment="Left" Margin="537,41,0,0" VerticalAlignment="Top" Width="90"/>
+        <Label Content="Ответ:" HorizontalAlignment="Left" Margin="489,41,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.763,-0.192" Width="66"/>
+
+    </Grid>
+</Window>
